@@ -1,0 +1,11 @@
+<title>《{$obj.vod_name|mac_default='404'}》{if condition="($obj.type_id == 2) OR ($obj.type_id == 3) OR ($obj.type_id == 4) "}免VIP全集在线观看 - {$obj.type.type_name}{else /}BD/HD高清完整版_{$obj.vod_name|mac_default='404'}1080P/720P高清在线播放{/if} - {$maccms.site_name}</title>
+<meta name="keywords" content="{$obj.vod_name}免费在线观看,{$obj.vod_name}高清观看,{$obj.vod_name}全集,{$obj.vod_name}完整版,{$obj.vod_name}下载,{$obj.vod_name}快看影视在线观看,{$obj.vod_name}影视大全" />
+<meta name="description" content="{$obj.vod_name}在线观看 {$obj.vod_name}全集 {$obj.vod_name}剧情：{$obj.vod_content|mac_filter_html|mac_substring=110}" />
+<meta itemprop="name" property="og:title" content="{$obj.vod_name|mac_filter_html} - {$maccms.site_name}" />
+<meta itemprop="type" property="og:type" content="videolist" />
+<meta itemprop="image" property="og:image" content="{$obj.vod_pic|mac_url_img}" />
+<meta itemprop="class" property="og:video:class" content="{$obj.type.type_name|mac_filter_html}" />
+<meta itemprop="actor" property="og:video:actor" content="{$obj.vod_actor}" />
+<meta itemprop="uploadDate" property="og:video:date" content="{$obj.vod_time|date='Y-m-d',###}" />
+<meta itemprop="contentLocation" property="og:video:area" content="{$obj.vod_area}" />
+<meta itemprop="description" property="og:description" content="{$vfedcc['seos']['vinfo']['info']}{$obj.vod_blurb}" />
