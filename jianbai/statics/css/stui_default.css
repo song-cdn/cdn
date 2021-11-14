@@ -1,8 +1,3 @@
-/*!
- * Copyright  http://banyundog.com
-  http://www.banyundog.com
- * QQ群：836809823
- */
 @charset "utf-8";
 
 body,
@@ -369,7 +364,7 @@ textarea.form-control {
 
 .stui-header__logo .logo {
 	display: block;
-	width: 150px;
+	width: 200px;
 	height: 50px;
 	background: url(../img/logo.png) no-repeat;
 	background-position: 50% 50%;
